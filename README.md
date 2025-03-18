@@ -1,2 +1,2 @@
 # CadastroUsuarioCase
-Teste para processo seletivo
+Caso de teste para processo seletivo AutoMind.
