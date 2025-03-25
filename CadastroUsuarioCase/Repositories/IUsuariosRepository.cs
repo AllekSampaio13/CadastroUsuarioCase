@@ -9,4 +9,5 @@ public interface IUsuariosRepository
     void CadastrarUsuario(Usuario usuario);
     IEnumerable<Usuario> ListarUsuarios();
     Usuario? BuscarUsuario(string nome);
+    void RemoverUsuario(Usuario usuario);
 }

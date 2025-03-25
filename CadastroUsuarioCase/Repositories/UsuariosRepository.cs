@@ -26,6 +26,12 @@ public class UsuariosRepository : IUsuariosRepository
         _usuarios.Add(usuario);
     }
 
+    // Método para remover um usuário
+    public void RemoverUsuario(Usuario usuario)
+    {
+        _usuarios.Remove(usuario);
+    }
+
     // Método para listar todos os usuários
     public IEnumerable<Usuario> ListarUsuarios()
     {

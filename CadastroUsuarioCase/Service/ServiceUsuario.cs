@@ -18,6 +18,8 @@ public class ServiceUsuario : IServiceUsuario
     //Método para cadastrar usuários fazendo uma validação para caso o usuário informe um campo vazio 
     public void CadastrarUsuario()
     {
+        Console.WriteLine("CADASTRANDO USUÁRIO: ");
+        Console.WriteLine("");
         Console.WriteLine("Nome de usuário:");
         var nome = ValidaCampo(Console.ReadLine(),"Nome");
         Console.WriteLine("Email:");
@@ -75,6 +77,22 @@ public class ServiceUsuario : IServiceUsuario
             Console.WriteLine($"idade: {usuario.Idade}");
         }
 
+    }
+
+    // Método para remover um usuário fazendo validação para o caso do usuário não ser encontrado
+    public void RemoverUsuario()
+    {
+        Console.WriteLine("Nome de usuário:");
+        var nome = ValidaCampo(Console.ReadLine(), "Nome");
+        var usuario = _repository.BuscarUsuario(nome);
+        if (usuario == null)
+        {
+            Console.WriteLine("Usuário não encontrado");
+            return;
+        }
+        _repository.RemoverUsuario(usuario);
+
+        Console.WriteLine("Usuário removido!");
     }
 
     // Método utilizado para validar se um campo está nulo ou vazio

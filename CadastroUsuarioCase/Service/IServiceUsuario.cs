@@ -6,4 +6,5 @@ public interface IServiceUsuario
     void CadastrarUsuario();
     void ListarUsuarios();
     void BuscarUsuario();
+    void RemoverUsuario();
 }

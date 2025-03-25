@@ -1,0 +1,15 @@
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\bin\Debug\net8.0\CadastroUsuarioCase.exe
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\bin\Debug\net8.0\CadastroUsuarioCase.deps.json
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\bin\Debug\net8.0\CadastroUsuarioCase.runtimeconfig.json
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\bin\Debug\net8.0\CadastroUsuarioCase.dll
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\bin\Debug\net8.0\CadastroUsuarioCase.pdb
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.AssemblyInfoInputs.cache
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.AssemblyInfo.cs
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.csproj.CoreCompileInputs.cache
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.sourcelink.json
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.dll
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\refint\CadastroUsuarioCase.dll
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.pdb
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\CadastroUsuarioCase.genruntimeconfig.cache
+C:\Users\allek\OneDrive\Documentos\Programação\Repositorios\CadastroUsuarioCase\CadastroUsuarioCase\obj\Debug\net8.0\ref\CadastroUsuarioCase.dll

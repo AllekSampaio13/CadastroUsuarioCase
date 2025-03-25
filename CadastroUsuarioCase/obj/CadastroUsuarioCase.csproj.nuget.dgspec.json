@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Allek\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj": {}
+    "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Repositorios\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Allek\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj": {
+    "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Repositorios\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Allek\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj",
+        "projectUniqueName": "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Repositorios\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj",
         "projectName": "CadastroUsuarioCase",
-        "projectPath": "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Allek\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj",
+        "projectPath": "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Repositorios\\CadastroUsuarioCase\\CadastroUsuarioCase\\CadastroUsuarioCase.csproj",
         "packagesPath": "C:\\Users\\allek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Allek\\CadastroUsuarioCase\\CadastroUsuarioCase\\obj\\",
+        "outputPath": "C:\\Users\\allek\\OneDrive\\Documentos\\Programação\\Repositorios\\CadastroUsuarioCase\\CadastroUsuarioCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
