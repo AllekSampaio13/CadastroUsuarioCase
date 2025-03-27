@@ -26,6 +26,14 @@ public class UsuariosRepository : IUsuariosRepository
         _usuarios.Add(usuario);
     }
 
+    // Método para atualizar um usuário
+    public void AtualizarUsuario(Usuario usuario)
+    {
+        var usuarioRemovido = _usuarios.FirstOrDefault(u => u.Nome == usuario.Nome);
+        _usuarios.Remove(usuarioRemovido);
+        _usuarios.Add(usuario);
+    }
+
     // Método para remover um usuário
     public void RemoverUsuario(Usuario usuario)
     {

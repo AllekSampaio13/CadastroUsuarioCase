@@ -10,4 +10,5 @@ public interface IUsuariosRepository
     IEnumerable<Usuario> ListarUsuarios();
     Usuario? BuscarUsuario(string nome);
     void RemoverUsuario(Usuario usuario);
+    void AtualizarUsuario(Usuario usuario);
 }

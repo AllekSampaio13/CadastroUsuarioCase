@@ -7,4 +7,5 @@ public interface IServiceUsuario
     void ListarUsuarios();
     void BuscarUsuario();
     void RemoverUsuario();
+    void AtualizarUsuario();
 }

@@ -55,13 +55,13 @@ public class ServiceUsuario : IServiceUsuario
             }
         }
 
-
     }
 
     //Método para buscar um usuário pelo nome fazendo validação para o caso do usuário ser nulo
     public void BuscarUsuario()
     {
         Console.WriteLine("Nome de usuário:");
+        var lst = new List<Usuario>();
         var nome = ValidaCampo(Console.ReadLine(), "Nome");
         var usuario = _repository.BuscarUsuario(nome);
         if (usuario == null)
@@ -78,6 +78,32 @@ public class ServiceUsuario : IServiceUsuario
         }
 
     }
+
+    // Método para atualizar um usuário fazendo validação para o caso do usuário não ser encontrado
+    public void AtualizarUsuario()
+    {
+        Console.WriteLine("Nome de usuário:");
+        var nome = ValidaCampo(Console.ReadLine(), "Nome");
+        var usuario = _repository.BuscarUsuario(nome);
+        if (usuario == null)
+        {
+            Console.WriteLine("Usuário não encontrado");
+            return;
+        }
+        Console.WriteLine("Email:");
+        var atualizaEmail = ValidaCampo(Console.ReadLine(), "Email");
+        Console.WriteLine("Idade:");
+        var atualizaIdade = ValidaCampo(Console.ReadLine(), "Idade");
+        var usuarioAtualizado = new Usuario
+        {
+            Nome = nome,
+            Email = atualizaEmail,
+            Idade = int.Parse(atualizaIdade)
+        };
+        _repository.AtualizarUsuario(usuarioAtualizado);
+        Console.WriteLine("Usuário atualizado!");
+
+    }                                    
 
     // Método para remover um usuário fazendo validação para o caso do usuário não ser encontrado
     public void RemoverUsuario()

@@ -11,8 +11,9 @@ while (true)
     Console.WriteLine("1 - Cadastrar usuário");
     Console.WriteLine("2 - Listar usuários");
     Console.WriteLine("3 - Buscar usuário por nome");
-    Console.WriteLine("4 - Remover usuário");
-    Console.WriteLine("5 - Sair");
+    Console.WriteLine("4 - Atualizar usuário por nome");
+    Console.WriteLine("5 - Remover usuário");
+    Console.WriteLine("6 - Sair");
 
     var opcao = Console.ReadLine(); // Recebendo a opção do usuário
 
@@ -30,9 +31,12 @@ while (true)
             serviceUsuario.BuscarUsuario();
             break;
         case "4":
-            serviceUsuario.RemoverUsuario();
+            serviceUsuario.AtualizarUsuario();
             break;
         case "5":
+            serviceUsuario.RemoverUsuario();
+            break;
+        case "6":
             return;
         default:
             Console.WriteLine("Opção inválida! Tente novamente.");
